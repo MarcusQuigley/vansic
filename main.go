@@ -9,9 +9,11 @@ func main() {
 	u := models.User{
 		Id:        1,
 		Firstname: "Joe",
-		Lastname:  "Donohue",
+		Lastname:  "D",
 	}
 
+//	var users models.
 	fmt.Printf("%v\n", u)
+	
 
 }

@@ -11,14 +11,15 @@ var (
 	nextID = 1
 )
 
-// func chap4() {
-// 	//var i int = 42
-// 	i := 42
 
+
+
+// func chap4() {
+// 	var i int = 42
+// 	i := 42
 // 	fmt.Printf("%d\n", i)
 
 // 	var firstname *string = new(string) //pointer operator
-
 // 	*firstname = "Marco" //deref operator
 // 	fmt.Println(*firstname, firstname)
 // 	lastname := "Quigs"
