@@ -11,8 +11,16 @@ var (
 	nextID = 1
 )
 
+func GetUsers() []*User {
+	return users
+}
 
-
+ func AddUser(u User) (User, error){
+	 u.Id = nextID
+	 nextID++
+	 users = append(users, &u)
+	 return u,nil
+ }
 
 // func chap4() {
 // 	var i int = 42
